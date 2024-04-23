@@ -1,0 +1,201 @@
+body {
+    background-color: black;
+    position: relative;
+    height:auto;    
+    padding-top: 10px;
+}
+body::-webkit-scrollbar{
+    width: 10px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #fff;
+    border-radius: 5px;
+}
+body::-webkit-scrollbar-track{
+    background-color: #000;
+}
+#image {
+    position: absolute;
+    top: 100px;
+    right: 590px;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: all;
+    transition-duration: .5s;
+    border: 1px solid white;
+    padding: 5px;
+    box-shadow: 2px 2px 1px rgb(152, 143, 143);
+}
+#image:hover{
+    scale: 1.05;
+}
+.container {
+    height: 300px;
+    width: 100%;
+    /* border: 4px solid white; */
+    /* bottom: 0px; */
+    position: absolute;
+    top: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box div {
+    display: inline-block;
+}
+
+.box {
+    height: 250px;
+    width: 300px;
+    border: 1px solid wheat;
+    color: aqua;
+    font-size: 23px;
+    display: flex;
+    font-weight: 600;
+    justify-content: center;
+    transition-property: all;
+    transition-duration: .7s;
+    transition-delay: .1s;
+}
+
+.box:hover {
+    height: 280px;
+    width: 330px;
+    /* background: linear-gradient(red,yellow,white,green,brown,gold); */
+    /* background: content-box radial-gradient(crimson, skyblue); */
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    font-size:28px ;
+    color: black;
+}
+
+.sum {
+    font-size: 23px;
+    font-weight: 600;
+    position: absolute;
+    top: 10px;
+    color: rgb(177, 144, 60);
+}
+#u_summary {
+    font-size: medium;
+    /* color: aqua; */
+    margin-top: 70px;
+    text-align: center;
+}
+#u_project {
+    font-size: medium;
+    /* color: aqua; */
+    margin-top: 70px;
+}
+
+#u_skill {
+    /* color: aqua; */
+    font-size: medium;
+    margin-top: 70px;
+}
+
+#u_certificate {
+    /* color: aqua; */
+    font-size: medium;
+    margin-top: 70px;
+}
+
+
+
+#img_sign {
+    /* border: 2px solid white; */
+    position: absolute;
+    left: 300px;
+    top: 0px;
+}
+
+#utube_logo {
+    border-radius: 20px;
+}
+
+#facebook_logo {
+    border-radius: 50%;
+    width: 40px;
+    margin-left: 8px;
+}
+
+#linkedin_logo {
+    margin-left: 8px;
+}
+
+
+.social {
+    height: 70px;
+    width: 350px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo:hover {
+    transform: scale(1.08);
+    transition: all;
+    transition-duration: .3s;
+}
+#table{
+    color: aliceblue;
+}
+#navbar{
+    height: 50px;
+    width: 350px;
+    position: absolute;
+    right: 20px;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#navbar a{
+    text-decoration: none;
+    color: rgb(177, 144, 60);
+    transition: all;
+    transition-duration:.2s ;
+    transition-timing-function:cubic-bezier(3);
+    font-weight: 600;
+}
+#navbar a:hover{
+scale: 1.10;
+text-decoration: underline;
+color: rgb(201, 185, 185);
+}
+#navbar .logo{
+height:60px;
+width: 60px;
+border-radius: 50%;
+}
+.signature{
+position: absolute;
+height: 300px;
+width: 300px;
+background-image: url('Jp Signature.jpg');
+background-position: center;
+background-size: contain;
+top: 80px;
+left: 140px;
+}
+.copyright{
+height: 70px;
+width: 250px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+background-color: #b49f9f7e;
+position: absolute; 
+left: 50%;
+top: 700px;
+transform: translate(-50%,0);
+border-radius: 10px;
+padding: 10px;
+color: aqua;
+}
+.copyright i{
+color: aqua;
+}
